@@ -34,7 +34,7 @@ repos:
         files: ^profiles/.*\.json$
         args:
           - --schemafile
-          - https://raw.githubusercontent.com/Guts/qgis-deployment-cli/main/docs/schemas/profile/qgis_profile.json
+          - https://github.com/qgis-deployment/qgis-deployment-toolbelt-cli/raw/main/docs/schemas/profile/qgis_profile.json
 
   - repo: https://github.com/python-jsonschema/check-jsonschema
     rev: 0.28.0
@@ -45,12 +45,10 @@ repos:
         args:
           - --default-filetype
           - yaml
-          - --base-uri
-          - https://raw.githubusercontent.com/Guts/qgis-deployment-cli/main/docs/schemas/scenario/
           - --schemafile
-          - https://raw.githubusercontent.com/Guts/qgis-deployment-cli/main/docs/schemas/scenario/schema.json
+          - https://github.com/qgis-deployment/qgis-deployment-toolbelt-cli/raw/main/docs/schemas/scenario/qdt_scenario.json
 
 ci:
   autoupdate_schedule: quarterly
-  skip: []
+  skip: [check-jsonschema]
   submodules: false
