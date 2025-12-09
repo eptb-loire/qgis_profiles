@@ -1,10 +1,10 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/Guts/qgis-deployment-cli/main/docs/schemas/scenario/schema.json
 
 metadata:
-  title: "Profile EP Loire"
-  id: eploire_utilisateur
+  title: "Team Géomatqiue"
+  id: team_geomatique
   description: >-
-    Scénario de deploiement des profils utilisateurs, basés sur des secteurs géographiques.
+    Profils service géomatique.
 
 # Toolbelt settings
 settings:
@@ -68,43 +68,8 @@ steps:
     with:
       action: create_or_restore
       include:
-        - profile: EP Loire support
-          label: "Qgis essentiel BV Loire"
-          desktop: true
-          start_menu: true
-          additional_arguments: "--noversioncheck"
-          action: create_or_restore
-          icon: "images/qgis_icone_eploire.ico"
-        - profile: axe_loire
-          label: "Qgis Axe Loire"
-          desktop: true
-          start_menu: true
-          additional_arguments: "--noversioncheck"
-          action: create_or_restore
-          icon: "images/qgis_icone_eploire.ico"
-        - profile: cher
-          label: "Qgis bassin du Cher"
-          desktop: true
-          start_menu: true
-          additional_arguments: "--noversioncheck"
-          action: create_or_restore
-          icon: "images/qgis_icone_eploire.ico"
-        - profile: haut_bassin
-          label: "Qgis Allier et Loire amont"
-          desktop: true
-          start_menu: true
-          additional_arguments: "--noversioncheck"
-          action: create_or_restore
-          icon: "images/qgis_icone_eploire.ico"
-        - profile: loire_aval
-          label: "Qgis Loire aval"
-          desktop: true
-          start_menu: true
-          additional_arguments: "--noversioncheck"
-          action: create_or_restore
-          icon: "images/qgis_icone_eploire.ico"
-        - profile: maine
-          label: "QGis bassin de la Maine"
+        - profile: team_geomatique
+          label: "Service Géomatique"
           desktop: true
           start_menu: true
           additional_arguments: "--noversioncheck"
