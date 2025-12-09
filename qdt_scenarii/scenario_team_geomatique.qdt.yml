@@ -40,16 +40,6 @@ steps:
         - "3.28"
       if_not_found: error
 
-  - name: Download plugins
-    uses: qplugins-downloader
-    with:
-      force: false
-      threads: 5
-
-  - name: Synchronize plugins
-    uses: qplugins-synchronizer
-    with:
-      action: create_or_restore
 
   - name: Download profiles from remote git repository
     uses: qprofiles-downloader
@@ -62,7 +52,17 @@ steps:
     uses: qprofiles-synchronizer
     with:
       sync_mode: overwrite
+      
+  - name: Download plugins
+    uses: qplugins-downloader
+    with:
+      force: false
+      threads: 5
 
+  - name: Synchronize plugins
+    uses: qplugins-synchronizer
+    with:
+      action: create_or_restore
   - name: Create shortcuts for profiles
     uses: shortcuts-manager
     with:
