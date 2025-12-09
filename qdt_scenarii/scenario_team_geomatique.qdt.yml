@@ -68,7 +68,7 @@ steps:
     with:
       action: create_or_restore
       include:
-        - profile: team_geomatique
+        - profile: EP Loire service géomatique
           label: "Service Géomatique"
           desktop: true
           start_menu: true
