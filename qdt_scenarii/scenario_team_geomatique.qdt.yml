@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/Guts/qgis-deployment-cli/main/docs/schemas/scenario/schema.json
 
 metadata:
-  title: "Team Géomatqiue"
+  title: "team_geomatique"
   id: team_geomatique
   description: >-
     Profils service géomatique.
@@ -68,7 +68,7 @@ steps:
     with:
       action: create_or_restore
       include:
-        - profile: EP Loire service géomatique
+        - profile: team_geomatique
           label: "Service Géomatique"
           desktop: true
           start_menu: true

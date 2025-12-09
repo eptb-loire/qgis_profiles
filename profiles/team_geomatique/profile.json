@@ -1,7 +1,6 @@
 {
   "$schema": "https://raw.githubusercontent.com/Guts/qgis-deployment-cli/main/docs/schemas/profile/qgis_profile.json",
-  "name": "EP Loire service géomatique",
-  "folder_name": "team_geomatique",
+  "name": "team_geomatique",
   "description": "Service Géomatique",
   "author": "Emilie BIGORNE",
   "email": "emilie.bigorne@eptb-loire.fr",
