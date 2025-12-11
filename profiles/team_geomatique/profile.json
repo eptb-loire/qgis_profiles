@@ -8,7 +8,7 @@
   "splash": "images/splash_BVLoire.png",
   "qgisMinimumVersion": "3.28.4",
   "qgisMaximumVersion": "3.99.10",
-  "version": "3.2.1",
+  "version": "1.0.0",
  "plugins": [
     {
       "name": "Layers menu from project",
@@ -17,5 +17,20 @@
       "plugin_id": 43,
       "version": "2.4.1"
     }
-  ]
+  ],
+  "rules": [
+    {
+      "name": "QDT_TEAM_SIG exists",
+      "description": "Service SIG uniquement",
+      "conditions": {
+        "all": [
+          {
+            "path": "$.env.QDT_TEAM_SIG",
+            "value": "",
+            "operator": "not_equal"
+          }
+        ]
+      }
+    }
+  ] 
 }
