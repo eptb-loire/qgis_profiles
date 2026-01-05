@@ -116,7 +116,7 @@ steps:
           start_menu: true
           additional_arguments: "--noversioncheck"
           action: create_or_restore
-          icon: "images/qgis_icone_TeamSig.ico"          
+          icon: "images/qgis_icone_TeamSig.ico"
   - name: Set splash screen
     uses: splash-screen-manager
     with:
