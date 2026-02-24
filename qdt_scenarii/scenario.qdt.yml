@@ -41,11 +41,11 @@ steps:
       if_not_found: error
 
 
-  - name: Download profiles from remote git repository
+  - name: Download profiles from local Git repository
     uses: qprofiles-downloader
     with:
-      source: https://github.com/eptb-loire/qgis_profiles.git
-      protocol: git_remote
+      source: file://\\srv-fic01\Informatique\qgis_profiles
+      protocol: git_local
       branch: main
 
   - name: Synchronize profiles
