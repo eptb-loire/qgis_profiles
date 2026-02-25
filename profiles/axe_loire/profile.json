@@ -1,5 +1,6 @@
 {
-  "$schema": "https://raw.githubusercontent.com/Guts/qgis-deployment-cli/main/docs/schemas/profile/qgis_profile.json",
+  
+  "$schema": "https://raw.githubusercontent.com/qgis-deployment/qgis-deployment-toolbelt-cli/main/docs/schemas/profile/qgis_profile.json",
   "name": "axe_loire",
   "description": "Profil pour les utilisateurs situés sur l'axe Loire, de la confluence avec l'Allier jusqu'à la confluence avec l'Indre",
   "author": "Emilie BIGORNE",
