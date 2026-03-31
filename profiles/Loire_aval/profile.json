@@ -4,11 +4,11 @@
   "description": "Profil pour les utilisateurs situés sur la Loire aval, De la confluence de l'Indre jusqu'à la mer.",
   "author": "Emilie BIGORNE",
   "email": "emilie.bigorne@eptb-loire.fr",
-  "icon": "images/qgis_icone_eploire.ico",
+  "icon": "images/fish.ico",
   "splash": "images/splash_LoireAval.png",
   "qgisMinimumVersion": "3.28.4",
   "qgisMaximumVersion": "3.99.10",
-  "version": "4.2.0",
+  "version": "4.2.1",
  "plugins": [
     {
       "name": "Layers menu from project",
