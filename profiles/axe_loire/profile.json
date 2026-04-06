@@ -1,5 +1,5 @@
 {
-  
+
   "$schema": "https://raw.githubusercontent.com/qgis-deployment/qgis-deployment-toolbelt-cli/main/docs/schemas/profile/qgis_profile.json",
   "name": "axe_loire",
   "description": "Profil pour les utilisateurs situés sur l'axe Loire, de la confluence avec l'Allier jusqu'à la confluence avec l'Indre",
