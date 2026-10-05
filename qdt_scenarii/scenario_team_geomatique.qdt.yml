@@ -52,7 +52,7 @@ steps:
     uses: qprofiles-synchronizer
     with:
       sync_mode: overwrite
-      
+
   - name: Download plugins
     uses: qplugins-downloader
     with:
