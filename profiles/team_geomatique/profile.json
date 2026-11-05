@@ -21,8 +21,7 @@
       "folder_name": "LiveMeasure",
       "official_repository": true,
       "plugin_id": 4027,
-      "version": "0.1.0",
-      "upgrade_mode": "delete"
+      "version": "0.1.0"
     }    
   ],
   "rules": [
