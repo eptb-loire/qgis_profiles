@@ -61,8 +61,7 @@ steps:
 
   - name: Synchronize plugins
     uses: qplugins-synchronizer
-    with:
-      profile_ref: downloaded
+
 
   - name: Create shortcuts for profiles
     uses: shortcuts-manager
