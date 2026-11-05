@@ -23,7 +23,8 @@
       "folder_name": "cadastre",
       "official_repository": true,
       "plugin_id": 397,
-      "version": "2.2.5"
+      "version": "2.2.5",
+      "upgrade_mode": "delete"
     },
     {
       "name": "French Locator Filter",
