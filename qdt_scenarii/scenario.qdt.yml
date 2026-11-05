@@ -4,7 +4,7 @@ metadata:
   title: "Profile EP Loire"
   id: eploire_utilisateur
   description: >-
-    Scénario de deploiement des profils utilisateurs, basés sur des secteurs géographiques.
+    Scénario de deploiement des profils utilisateurs, basés sur des secteurs géographiques. Maj : 05/11/2026
 
 # Toolbelt settings
 settings:
@@ -44,8 +44,8 @@ steps:
   - name: Download profiles from local Git repository
     uses: qprofiles-downloader
     with:
-      source: file://\\srv-fic01\Informatique\qgis_profiles
-      protocol: git_local
+      source: https://github.com/eptb-loire/qgis_profiles.git
+      protocol: git_remote
       branch: main
 
   - name: Synchronize profiles
@@ -62,7 +62,7 @@ steps:
   - name: Synchronize plugins
     uses: qplugins-synchronizer
     with:
-      action: create_or_restore
+      profile_ref: downloaded
 
   - name: Create shortcuts for profiles
     uses: shortcuts-manager
