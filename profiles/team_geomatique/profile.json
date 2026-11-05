@@ -6,7 +6,7 @@
   "email": "emilie.bigorne@eptb-loire.fr",
   "icon": "images/autumn.ico",
   "splash": "images/splash_teamSIG.png",
-  "version": "1.4.0",
+  "version": "1.4.1",
  "plugins": [
     {
       "name": "Layers menu from project",
@@ -15,7 +15,7 @@
       "plugin_id": 43,
       "version": "2.4.4",
       "upgrade_mode": "delete"
-    }
+    },
     {
       "name": "LiveMeasure",
       "folder_name": "LiveMeasure",
